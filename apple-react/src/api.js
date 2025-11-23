@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "http://localhost:5000/api", // backend server URL
+  baseURL: "https://sunday-market-web-app.onrender.com", // backend server URL
 });
 
 // Attach auth token and user id to all requests
